@@ -8,14 +8,19 @@
 <body>
     <div class="container">
         <div class="content  row">
+
+            <!-- logos -->
             <div class="col-lg-12">
                 <img class="float-start " src="logos\TamLogo.JPG" alt="">
                 <img class="float-end mx-5 mt-5  px-5" src="logos\AlmLogo.JPG" alt="">
             </div>
+
             <div class="d-flex justify-content-center" style="color: #2A8FA4;">
                 <h3>نموذج تغيير المستخدم الرئيسي في خدمة تم</h3>
             </div>
-            <div class="card my-5 border border-dark">
+            
+            <!-- frist section -->
+            <div class="card my-5  border border-dark">
                 <div class=" card-body col-lg-12">
                     <div class=" col-lg-12">
                         <label for="">رقم المنشأة بوزارة الداخلية:</label>
@@ -25,63 +30,64 @@
                         <label for="">الاسم العربي الكامل للمنشأة:</label>
                         <input class="form-control mt-1" type="text" name="" id="">
                     </div>       
-                </div>
-               
+                </div>   
             </div>
           
-                    <div class=" col-lg-12">
-                        <h5 style="background: #2A8FA4; color: white;">معلومات المستخدم الرئيسي</h5>
-                    </div>
-        
-                    <div class="  mt-3">    
-                            <table class="table ">
-                                <thead class="" style="background: #2A8FA4; color: white;">
-                                    <tr class="col-lg-12">
-                                        <th class="col-lg-2"  scope="col" >الإجراء المطلوب</th>
-                                        <th class="col-lg-2" scope="col">اسم المستخدم</th>
-                                        <th class="col-lg-2" scope="col">رقم الهوية / الاقامة</th>
-                                        <th class="col-lg-2" scope="col">رقم الجوال</th>
-                                        <th class="col-lg-2" scope="col">البريد الالكترونى</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    
-                                    <tr class="">
-                                        <td class=" text-center  " >
-                                            <input type="checkbox" name="" id="">
-                                            <label for="">اضافة</label>
-        
-                                            <input type="checkbox" name="" id="">
-                                            <label for="">تعديل</label>
-        
-                                            <input type="checkbox" name="" id="">
-                                            <label for="" >حذف</label>
-                                        </td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="email" class="form-control" /></td>
-                                      </tr>
-                                      <tr>
-                                        <td class=" text-center " >
-                                            <input type="checkbox" name="" id="">
-                                            <label for="">اضافة</label>
-        
-                                            <input type="checkbox" name="" id="">
-                                            <label for="">تعديل</label>
-        
-                                            <input type="checkbox" name="" id="">
-                                            <label for="">حذف</label>
-                                        </td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="text" class="form-control" /></td>
-                                        <td><input type="email" class="form-control" /></td>
-                                      </tr>
-                                </tbody>
-                            </table>                   
-                    </div>
+            
+            <!-- معلومات المستخدم الرئيسي -->
+            <div class="  mt-3">    
+                <div class=" col-lg-12">
+                    <h5 style="background: #2A8FA4; color: white;">معلومات المستخدم الرئيسي</h5>
+                </div>
+                <table class="table-bordered ">
+                    <thead class="" style="background: #2A8FA4; color: white;">
+                        <tr class="col-lg-12">
+                            <th class="col-lg-2 text-center">الإجراء المطلوب</th>
+                            <th class="col-lg-2 text-center">اسم المستخدم</th>
+                            <th class="col-lg-2 text-center">رقم الهوية / الاقامة</th>
+                            <th class="col-lg-2 text-center">رقم الجوال</th>
+                            <th class="col-lg-2 text-center">البريد الالكترونى</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr class="">
+                            <td class=" text-center  " >
+                                <input type="checkbox" name="" id="">
+                                <label for="">اضافة</label>
 
+                                <input type="checkbox" name="" id="">
+                                <label for="">تعديل</label>
+
+                                <input type="checkbox" name="" id="">
+                                <label for="" >حذف</label>
+                            </td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="email" class="form-control border border-white" /></td>
+                            </tr>
+                            <tr>
+                            <td class=" text-center " >
+                                <input type="checkbox" name="" id="">
+                                <label for="">اضافة</label>
+
+                                <input type="checkbox" name="" id="">
+                                <label for="">تعديل</label>
+
+                                <input type="checkbox" name="" id="">
+                                <label for="">حذف</label>
+                            </td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="text" class="form-control border border-white" /></td>
+                            <td><input type="email" class="form-control border border-white" /></td>
+                            </tr>
+                    </tbody>
+                </table>                   
+            </div>
+            
+            <!-- الاسم والمنصب -->
             <div class="card border border-white">
                 <div class="row card-body col-lg-12  ">
                     <div class="col-lg-6">
@@ -95,6 +101,7 @@
                 </div>
             </div>
 
+            <!-- last section -->
             <div class=" row col-lg-12 d-flex justify-content-around  my-5">
                 <div class="card col-lg-4 border border-dark" style="height: 200px;">
                     <div class="card-body">
